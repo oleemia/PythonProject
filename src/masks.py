@@ -27,4 +27,3 @@ masked_output = get_mask_card_number(input_card_number)
 # Печать результата
 print(f"Исходный номер карты: {input_card_number}")
 print(f"Маскированный номер карты: {masked_output}")
-
