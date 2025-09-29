@@ -22,6 +22,7 @@ def sort_by_date(banking_operation: List[Dict], reverse: bool = True) -> List[Di
     возвращает новый список, в котором исходные словари отсортированы по дате"""
     return sorted(banking_operation, key=lambda x: x.get("date"), reverse=reverse)
 
+
 operations = [
     {'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'},
     {'id': 939719570, 'state': 'EXECUTED', 'date': '2018-06-30T02:08:58.425572'},
